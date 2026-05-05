@@ -1,0 +1,20 @@
+{
+    "data_root": "E:\\FL\\Data\\Data",
+    "dataset_type": "both",
+    "model_name": "cnn",
+    "signal_length": 1024,
+    "overlap": 128,
+    "num_classes": 4,
+
+    "batch_size": 64,
+    "local_epochs": 5,
+    "global_rounds": 15,
+    "lr": 0.001,
+    "weight_decay": 1e-4,
+
+    "fed_strategy": "fedavg",
+
+    "device": "cuda",
+    "seed": 42,
+    "save_dir": "results"
+}
